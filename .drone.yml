@@ -1,6 +1,5 @@
 build:
-  image: golang
+  image: alpine
   commands:
-    - go get
-    - go build
-    - go test
+    - echo "Wohoo"
+    - date
